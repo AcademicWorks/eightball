@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_eightball.rb"
   ]
-  s.homepage = "http://github.com/ascruggs/eightball"
+  s.homepage = "https://github.com/AcademicWorks/eightball"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
