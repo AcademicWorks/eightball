@@ -1,6 +1,7 @@
 = eightball
 
-Description goes here.
+call "string".eightball and get back a legit UTF-8 string
+This has only been tested with ruby 1.9.2
 
 == Contributing to eightball
  
@@ -14,6 +15,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Aaron Scruggs. See LICENSE.txt for
+Copyright (c) 2011 AcademicWorks, inc. See LICENSE.txt for
 further details.
 
