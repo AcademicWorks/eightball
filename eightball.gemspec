@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "eightball"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Aaron Scruggs"]
@@ -24,11 +24,12 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "eightball.gemspec",
     "lib/eightball.rb",
     "test/helper.rb",
     "test/test_eightball.rb"
   ]
-  s.homepage = "https://github.com/AcademicWorks/eightball"
+  s.homepage = "http://github.com/ascruggs/eightball"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
