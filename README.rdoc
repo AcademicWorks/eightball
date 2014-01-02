@@ -1,10 +1,10 @@
 = eightball
 
 call "string".eightball and get back a legit UTF-8 string
-This has only been tested with ruby 1.9.2
+This has only been tested with ruby 1.9.3
 
 == Contributing to eightball
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
 * Fork the project
@@ -15,6 +15,6 @@ This has only been tested with ruby 1.9.2
 
 == Copyright
 
-Copyright (c) 2011 AcademicWorks, inc. See LICENSE.txt for
+Copyright (c) 2013 AcademicWorks, inc. See LICENSE.txt for
 further details.
 
