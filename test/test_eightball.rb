@@ -1,4 +1,4 @@
-# encoding: UTF-8
+# encoding: utf-8
 
 require 'helper'
 
@@ -10,10 +10,10 @@ class TestEightball < Test::Unit::TestCase
 
   should "remove invalid UTF-8 byte sequences" do
     string = File.read("test/files/test1")
-    assert Eightball::Helpers.needs_help?(string)
     string = string.eightball
     assert !string.empty?
-    assert !Eightball::Helpers.needs_help?(string)
+    assert string.valid_encoding?
+    assert string.encoding == Encoding::UTF_8
   end
-  
+
 end
