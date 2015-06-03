@@ -2,10 +2,10 @@
 
 module Eightball
 
-  def eightball
+  def eightball(replacement_string = '?')
     string = self
     string = string.force_encoding(Encoding::UTF_8) if not_utf8?
-    string = reencode(string)
+    string = reencode(string, replacement_string)
     string = drop_bom(string)
     string
   end
@@ -16,9 +16,9 @@ module Eightball
     !self.valid_encoding? || self.encoding != Encoding::UTF_8
   end
 
-  def reencode(string)
-    string = string.encode(Encoding::UTF_16, :invalid => :replace, :undef => :replace, :replace => '?')
-    string = string.encode(Encoding::UTF_8, :invalid => :replace, :undef => :replace, :replace => '?')
+  def reencode(string, replacement_string)
+    string = string.encode(Encoding::UTF_16, :invalid => :replace, :undef => :replace, :replace => replacement_string)
+    string = string.encode(Encoding::UTF_8, :invalid => :replace, :undef => :replace, :replace => replacement_string)
     string
   end
 
