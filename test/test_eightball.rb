@@ -16,4 +16,10 @@ class TestEightball < Test::Unit::TestCase
     assert string.encoding == Encoding::UTF_8
   end
 
+  should "remove carriage return if exists" do
+    test_string = "foobarbarbaz\r\n"
+    assert_equal test_string, test_string.eightball
+    assert !string.include?("\r")
+  end
+
 end

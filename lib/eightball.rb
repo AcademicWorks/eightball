@@ -7,6 +7,7 @@ module Eightball
     string = string.force_encoding(Encoding::UTF_8) if not_utf8?
     string = reencode(string, replacement_string)
     string = drop_bom(string)
+    string = strip_return(string)
     string
   end
 
@@ -24,6 +25,10 @@ module Eightball
 
   def drop_bom(string)
     string.sub(/^\xEF\xBB\xBF/, '')
+  end
+
+  def strip_return(string)
+    string.strip("\r")
   end
 
 end
