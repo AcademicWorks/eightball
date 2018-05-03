@@ -28,7 +28,7 @@ module Eightball
   end
 
   def strip_return(string)
-    string.strip("\r")
+    string.delete!("\r")
   end
 
 end
