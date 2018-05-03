@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'helper'
+require './helper.rb'
 
 class TestEightball < Test::Unit::TestCase
 
@@ -9,7 +9,7 @@ class TestEightball < Test::Unit::TestCase
   end
 
   should "remove invalid UTF-8 byte sequences" do
-    string = File.read("test/files/test1")
+    string = File.read("./files/test1")
     string = string.eightball
     assert !string.empty?
     assert string.valid_encoding?
@@ -18,8 +18,19 @@ class TestEightball < Test::Unit::TestCase
 
   should "remove carriage return if exists" do
     test_string = "foobarbarbaz\r\n"
-    assert_equal test_string, test_string.eightball
-    assert !string.include?("\r")
+    new_string = "foobarbarbaz\n"
+    assert_equal new_string, test_string.eightball
+    assert !new_string.include?("\r")
+    puts new_string.eightball
+  end
+
+  should "remove carriager return in test" do
+    string = File.read("./files/test_with_returns1.csv")
+    # binding.pry
+    string = string.eightball
+    assert !string.empty?
+    assert string.valid_encoding?
+    assert string.encoding == Encoding::UTF_8
   end
 
 end
