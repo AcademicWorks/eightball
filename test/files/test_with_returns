@@ -1,0 +1,31 @@
+# returns viewable in vi
+
+id(unchangeable),name(unchangeable),portfolio_id(unchangeable),opportunity_type(unchangeable),description,total_award_amount,total_awards,visible_award_amount,min_award_amount,max_award_amount,start_at,end_at,internal_end_date,review_period_start_at,review_period_end_at,in_system_offer,allow_drafted,propagate_profile_score,external_url
+5,The Gates Millennium Scholars,4,External,"GMS will select 1,000 talented students each year to receive a good-through-graduation scholarship to use at any college or university of their choice.
+ We provide Gates Millennium Scholars with personal and professional development through our leadership programs along with academic support throughout their college career. ",0,0,Varies,,,8/1/14,8/2/15,,,,,FALSE,TRUE,http://www.gmsp.org/
+25,Success Scholarship,2,Automatch,The Success Scholarship is available to all students with a 3.0 GPA or higher. ,40000,4,"$2,000 ",250,5000,1/1/18,,4/28/18,3/21/18,,"Congratulations on being awarded the Success Scholarship. This is a multi-year scholarship award valued at $2,000. You will receive the award in increments of $1,000 applied in the Spring and Fall Semester to your student account. In order to continue to recieve this award you need to:
+
+*- Maintain a minimum 2.5 GPA*
+
+*- Remain enrolled in the College of Business in Good-Standing*
+
+If you have not met these requirements in any semester, you will not receive the award in the subsequent semester.
+
+This scholarship has been funded through the generosity of the Success Scholarship Foundation.    *As a token of our appreciation, we require that all students receiving a scholarship submit a Thank You letter addressed to the donor.* You can deliver or mail your Thank You letter to the address listed below.
+
+Big State University, Foundation Office, 1609 Shoal Creek Boulevard, Austin, TX 78705
+
+Recognition of our donors is a very important step in ensuring the continuation of their support. *The funds associated with your scholarship award will be released once this Thank You letter has been received.* If you understand and agree to the terms of this scholarship please click the &quot;Accept&quot; button below.",FALSE,FALSE,
+30,Robert Mullin Scholarship Fund,1,Automatch,The Robert Mullin Scholarship Fund is open to all continuing students with a GPA of 3.0 or better in the College of Business.,15000,5,Varies,,,1/1/15,1/31/18,5/31/16,1/1/15,,"Congratulations on being awarded the The Robert Mullin Scholarship. You can learn more about Mr. Mullin by viewing the  <a href=""https://gold-he.academicworks.com/donors/3"">Robert Mullin Donor Profile</a>.  This is a multi-year scholarship award valued at $2,000. You will receive the award in increments of $1,000 applied in the Spring and Fall Semester to your student account. In order to continue to recieve this award you need to:
+
+*- Maintain a minimum 2.5 GPA*
+
+*- Remain enrolled in the College of Business in Good-Standing*
+
+If you have not met these requirements in any semester, you will not recieve the award in the subsequent semester.
+
+This scholarship has been funded through the generosity of the The Temple-Inland Foundation.    *As a token of our appreciation, we require that all students receiving a scholarship submit a Thank You letter addressed to the donor.* You can deliver or mail your Thank You letter to the address listed below.
+
+Big State University, Foundation Office, 1609 Shoal Creek Boulevard, Austin, TX 78705
+
+Recognition of our donors is a very important step in ensuring the continuation of their support. *The funds associated with your scholarship award will be released once this Thank You letter has been received.* If you understand and agree to the terms of this scholarship please click the &quot;Accept&quot; button below.",FALSE,FALSE,
