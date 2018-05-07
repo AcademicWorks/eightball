@@ -1,12 +1,11 @@
 # encoding: utf-8
 
 module Eightball
-
   def eightball(replacement_string = '?')
-    string = self
     string = string.force_encoding(Encoding::UTF_8) if not_utf8?
     string = reencode(string, replacement_string)
     string = drop_bom(string)
+    string = strip_return(string)
     string
   end
 
@@ -26,6 +25,9 @@ module Eightball
     string.sub(/^\xEF\xBB\xBF/, '')
   end
 
+  def strip_return(string)
+    string.delete!("\r")
+  end
 end
 
 String.send(:include, Eightball)

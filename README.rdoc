@@ -2,7 +2,8 @@
 
 Call "string".eightball and get back a legit UTF-8 string.
 If there is a BOM, it is removed.
-This has only been tested with ruby 1.9.3.
+If there are Excel for Mac carriage returns(`\r`) they are removed.
+This has been tested with ruby 2.3.3.
 
 == Contributing to eightball
 
